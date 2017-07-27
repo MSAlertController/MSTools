@@ -1,0 +1,24 @@
+//
+//  MSPrefixHeader.pch
+//
+//  Created by moses on 2017/7/18.
+//  Copyright © 2017年 ANT. All rights reserved.
+//
+
+#ifndef MSPrefixHeader_pch
+#define MSPrefixHeader_pch
+
+#import "MSHeaders.h"
+
+#define mainColor [UIColor whiteColor]
+
+#define kWidth ([UIScreen mainScreen].bounds.size.width)
+#define kHeight ([UIScreen mainScreen].bounds.size.height)
+
+#ifdef DEBUG
+#define DLog(format, ...) printf("%s [Line %d] %s\n", __PRETTY_FUNCTION__, __LINE__, [[NSString stringWithFormat:(format), ##__VA_ARGS__] UTF8String])
+#else
+#define DLog(...)
+#endif
+
+#endif /* MSPrefixHeader_pch */
