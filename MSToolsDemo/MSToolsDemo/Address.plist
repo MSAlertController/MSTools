@@ -2528,9 +2528,13 @@
 			<string>441882|连州市</string>
 		</array>
 		<key>441900|东莞市</key>
-		<array/>
+		<array>
+			<string>441900|市辖区</string>
+		</array>
 		<key>442000|中山市</key>
-		<array/>
+		<array>
+			<string>442000|市辖区</string>
+		</array>
 		<key>445100|潮州市</key>
 		<array>
 			<string>445102|湘桥区</string>
@@ -2727,9 +2731,13 @@
 			<string>460205|崖州区</string>
 		</array>
 		<key>460300|三沙市</key>
-		<array/>
+		<array>
+			<string>460300|市辖区</string>
+		</array>
 		<key>460400|儋州市</key>
-		<array/>
+		<array>
+			<string>460400|市辖区</string>
+		</array>
 		<key>469000|省直辖县级行政区划</key>
 		<array>
 			<string>469001|五指山市</string>
